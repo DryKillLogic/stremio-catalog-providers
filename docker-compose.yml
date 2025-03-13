@@ -10,14 +10,14 @@ services:
       PORT: 7000
       BASE_URL: http://localhost:7000
       DB_USER: postgres_user
-      DB_HOST: stremio_postgres
+      DB_HOST: postgres
       DB_NAME: stremio_catalog_db
       DB_PASSWORD: postgres_password
       DB_PORT: 5432
       DB_MAX_CONNECTIONS: 20
       DB_IDLE_TIMEOUT: 30000
       DB_CONNECTION_TIMEOUT: 2000
-      REDIS_HOST: stremio_redis
+      REDIS_HOST: redis
       REDIS_PORT: 6379
       REDIS_PASSWORD:
       TRAKT_CLIENT_ID: your_trakt_client_id
